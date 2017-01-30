@@ -1,0 +1,72 @@
+body{
+  font-family:'Orbitron',san-serif;
+  background-color:#606060;
+}
+.jumbotron{
+  font-family:'Audiowide',cursive;
+/*   background-color:#222222; */
+  background-color:rgba(34,34,34,.5);
+  color:red;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
+}
+#calcBtns{
+  margin-top:8%;
+}
+.calculator{
+  height:450px;
+  width:400px;
+  background-color:grey;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:10px;
+  margin-top:5%;
+  margin-bottom:5%;
+  border:solid 1px #444444;
+  box-shadow: 10px 10px 10px  #444444, inset -2px -1px 4px 1px;
+}
+
+.calcDisplay{
+  margin-left:auto;
+  margin-right:auto;
+/*   height:60px; */
+/*   width: 325px; */
+  width:90%;
+  height:15%;
+  background-color:rgba(255,255,255,.4);
+  border-radius: 5px;
+/*   opacity:.4; */
+/*   margin-bottom:10%; */
+  border:solid 2px #c8c8c8;
+/*   padding:2%; */
+}
+
+
+#ans{
+/*   display:block; */
+/*   float:right; */
+/*   margin-right:3%; */
+  font-size: 2em;
+}
+
+#steps{
+/*   display:block; */
+/*   positon:relative; */
+/*   float:right; */
+/*   margin-top:10%;    */
+  font-size:1em;
+/*   color:red; */
+}
+
+.calculator a{
+ margin:.5%;
+/*  width:50px; */
+ width:18%;
+ box-shadow: 0px 2px 0px 0px #444444 ;
+}
+
+.calculator .lrgBtn{
+/*   height:40px; */
+/*   width:110px; */
+  width:38.5%;
+}
